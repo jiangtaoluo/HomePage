@@ -29,7 +29,7 @@
     $("a").on('click', function(event) {
       // Make sure this.hash has a value before overriding default behavior
       if (this.hash !== "") {
-        // Prevent default anchor click behavior
+        // revent default anchor click behavior
         event.preventDefault();
         // Store hash
         var hash = this.hash;
@@ -130,8 +130,8 @@
     <p><li><span style="background-color:#fff3cd;color:#a94442;font-weight:bold;padding:2px 8px;border-radius:4px;"><span style="font-size:18px;margin-right:6px;vertical-align:-1px;">💥</span>07/24/2026, A new paper is accepted by IEEE Signal Processing Letters and early published in IEEE Xplore: "DCVC-SAT: Orbital Motion-Guided Incremental Encoding with Long-Term Style-Aligned Background for LEO Satellite Videos". (<a href="https://ieeexplore.ieee.org/document/11618928">IEEE DL link</a>) </span></li></p>
     <p><li>05/27/2026, A new paper is accepted by IEEE Transactions on Industrial Informatics (TII) and early published in IEEE Xplore: "PoCo: Joint Optimization of Power and Cooling for Low-Carbon CCHP-Integrated Data Centers". The first author is Yongyi Ran. (<a href="https://ieeexplore.ieee.org/document/11535831">IEEE DL link</a>) </li></p>
     <p><li>05/20/2026, A new paper is accepted by TCCN and early published in IEEE Xplore: "SuperABR: Super-Resolution-assisted QoE Optimization for Mobile Adaptive Video Streaming with Queue-driven Deep Reinforcement Learning". The first author is Dr. Yongyi Ran. (<a href="https://ieeexplore.ieee.org/document/11525416">IEEE DL link</a>) </li></p>
-    <p><li>3/14/2026, 2026年团队最新介绍发布：<a href="data/news/team_intro@02603.pdf">点击下载</a></li></p>
-    <p><li>3/26/2026, 2026级研究生招新团队见面会安排：时间：<strong style="text-decoration:underline;">2026-03-29(周日) 18:30 - 22:00</strong>；<strong style="text-decoration:underline;">2026-03-30(周一) 08:00 - 12:00</strong>. 地点：重庆邮电大学信息科技大厦15楼1509多功能室。</li></p>
+    <p><li>3/14/2026, Latest 2026 team introduction released: <a href="data/news/team_intro@02603.pdf">Download</a></li></p>
+    <p><li>3/26/2026, Meet-and-greet for 2026 graduate recruitment: Time: <strong style="text-decoration:underline;">2026-03-29 (Sun) 18:30 - 22:00</strong>; <strong style="text-decoration:underline;">2026-03-30 (Mon) 08:00 - 12:00</strong>. Venue: Multipurpose Room 1509, 15F, Information Technology Building, Chongqing University of Posts and Telecommunications.</li></p>
   <p><li>11/9/2025, "D3T: Dual-Timescale Optimization of Task Scheduling and Thermal Management for Energy Efficient Geo-Distributed Data Centers" was accepted by TPDS. The first author is Dr. Yongyi Ran. </li></p>
   <p><li>3/5/2025, the TWC paper is published early access by IEEE. (<a href="https://ieeexplore.ieee.org/document/10910071">IEEE DL link</a>) </li></p>
   <p><li>2/20/2025, "Demand-Aware Beam Hopping and Power Allocation for Load Balancing in Digital Twin empowered LEO Satellite Networks" is accepted by TWC. </li></p>
@@ -622,9 +622,9 @@ Song Guo; Deze Zeng; Lin Gu; <strong>Jiangtao Luo</strong>
           </ul>
         <p style="margin-top:1em;"><strong>Screenshots &amp; Demo</strong></p>
         <details style="margin-top:0.5em;">
-          <summary style="cursor:pointer;color:#447ec9;list-style:none;display:inline-block;">▸ 点击查看截图与演示</summary>
+          <summary style="cursor:pointer;color:#447ec9;list-style:none;display:inline-block;">▸ Click to view screenshots and demos</summary>
           <div class="w3-row-padding" style="margin-top:0.75em;">
-            <!-- 图片：将 src 改为您的图片路径，如 images/demos/sine-overview.png -->
+            <!-- Images: update src to your image path, e.g. images/demos/sine-overview.png -->
             <div class="w3-half w3-margin-bottom">
               <a href="images/demos/sine-sagin.png" target="_blank" title="Click to view full size">
                 <img src="images/demos/sine-sagin.png" alt="SINE overview" style="width:100%;border:1px solid #ddd;border-radius:4px;" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
@@ -661,17 +661,17 @@ Song Guo; Deze Zeng; Lin Gu; <strong>Jiangtao Luo</strong>
               <p class="w3-small" style="margin-top:4px;color:#555;">Multi-beam</p>
             </div>
           </div>
-          <!-- 视频：二选一。(1) 本地视频：取消下面注释并设置 src 为 data/demos/xxx.mp4 -->
+          <!-- Videos: (1) Local video — uncomment below and set src to your .mp4/.webm path -->
           <div class="w3-margin-top">
             <p class="w3-small" style="color:#555;margin-bottom:4px;">Demo video</p>
-            <!-- 本地视频（将 src 改为您的 .mp4 路径后取消注释）：
+            <!-- Local video (update src and uncomment):
             <video controls width="100%" style="max-width:640px;border-radius:4px;">
               <source src="data/demos/sine-demo.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
             -->
-            <!-- (2) B站/YouTube 嵌入：从 B站 或 YouTube 获取“嵌入”代码，替换下面 src 后取消注释
-            <iframe width="100%" style="max-width:640px;height:360px;border:none;border-radius:4px;" src="https://player.bilibili.com/player.html?bvid=您的BV号" allowfullscreen></iframe>
+            <!-- (2) Bilibili/YouTube embed: replace src with the embed URL, then uncomment
+            <iframe width="100%" style="max-width:640px;height:360px;border:none;border-radius:4px;" src="https://player.bilibili.com/player.html?bvid=YOUR_BVID" allowfullscreen></iframe>
             -->
             <p class="w3-small" style="color:#555;margin-bottom:4px;">Demo video (WebM)</p>
             <video controls width="100%" style="max-width:640px;border-radius:4px;">
@@ -681,16 +681,16 @@ Song Guo; Deze Zeng; Lin Gu; <strong>Jiangtao Luo</strong>
 
             <p class="w3-small" style="color:#555;margin:1em 0 4px;">Demo video (MP4)</p>
             <video controls width="100%" style="max-width:640px;border-radius:4px;">
-              <source src="images/demos/sagin-20260227.mp4" type="video/mp4">
+              <source src="images/demos/sagin-20260227.webm" type="video/webm">
               Your browser does not support the video tag.
             </video>
 
             <p class="w3-small" style="color:#555;margin:1em 0 4px;">Demo video (PB, 2026-08-05)</p>
             <video controls width="100%" style="max-width:640px;border-radius:4px;">
-              <source src="images/demos/PB%202026-08-05%2009-22.mp4" type="video/mp4">
+              <source src="images/demos/PB-2026-08-05.webm" type="video/webm">
               Your browser does not support the video tag.
             </video>
-            <p class="w3-small" style="color:#888;margin-top:4px;">点击上方任一视频即可播放。</p>
+            <p class="w3-small" style="color:#888;margin-top:4px;">Click any video above to play.</p>
           </div>
         </details>
       </li></p>
