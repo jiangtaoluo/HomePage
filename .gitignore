@@ -20,3 +20,6 @@ Desktop.ini
 *.log
 *.tmp
 *.temp
+
+# Video sources (keep WebM only in the repo)
+*.mp4
